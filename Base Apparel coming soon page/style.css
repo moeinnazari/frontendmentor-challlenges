@@ -1,0 +1,244 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+:root{
+	--p-Desaturated-Red: hsl(0, 36%, 70%);
+--p-Soft-Red: hsl(0, 93%, 68%);
+--n-Dark-Grayish-Red: hsl(0, 6%, 24%);
+--l-f1-135:hsl(0, 0%, 100%);
+--l-t1-135:hsl(0, 100%, 98%);
+--l-f2-135:hsl(0, 80%, 86%);
+--l-t2-135:hsl(0, 74%, 74%);
+}
+body{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 16px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	padding:0;
+	margin: 0;
+}
+main{
+	
+	min-height: 100vh;
+   width: 100%;
+	padding:0;
+	margin: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items:flex-start;
+	
+}
+.container{
+	width: 60%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+	margin-right: auto;
+}
+.box1{
+	position: absolute;
+	top: 2rem;
+	left: 140px;
+	z-index: 22;
+
+}
+.box2{
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items:flex-start;
+	margin-left: 140px;
+	margin-top: 110px;
+}
+.header{
+	text-transform: uppercase;
+	font-size: 4rem;
+	font-weight: 600;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	letter-spacing:1rem;
+	line-height: 1.2;
+
+}
+.header-uniqe{
+	color:var(--p-Desaturated-Red);
+	font-weight: 300;
+}
+.text{
+	color: var(--p-Desaturated-Red);
+	width: 70%;
+	line-height: 1.7;
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+form{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: baseline;
+	margin-top: 20px;
+}
+.email{
+	width: 300px;
+	padding:20px 32px;
+	border:1px solid var(--p-Desaturated-Red);
+	border-radius: 32px;
+    outline: none;
+}
+.email:focus{
+   outline: none;
+	border-radius: 32px;
+	border:1px solid var(--p-Desaturated-Red);
+	box-shadow: 0 0 15px 5px var(--p-Desaturated-Red);
+}
+label{
+	align-self: flex-start;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+::placeholder{
+	font-size: 18px;
+	font-weight: 400;
+}
+.error-img{
+	background-image: url('images/icon-error.svg');
+	background-position: 80%;
+	background-repeat: no-repeat;
+	border: 1px solid var(--p-Soft-Red);
+}
+#error-txt{
+	visibility: hidden;
+}
+.submit{
+	align-self: flex-start;
+	
+	border-radius: 32px;
+    width: 110px;
+    height:58px;
+    margin-left: -54px;
+    margin-top: 0px;
+    background-image: url('images/icon-arrow.svg'),linear-gradient(135deg, #f8bfbf, #ee8c8c);
+    background-size: 10% 40%,cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s ease-in 0.01s;
+
+}
+.submit:hover{
+   background-image: url('images/icon-arrow.svg'),linear-gradient(135deg, #f1d4d4ff, #edd8d8ff);
+}
+.box3{
+	height: 100vh;
+	width: 40%;
+   background-image: url('images/hero-desktop.jpg');
+   background-position:center;
+   background-size: cover;
+   background-repeat: no-repeat;
+
+   
+}
+.error-txt{
+  margin-top: 5px;
+  color: var(--p-Soft-Red);
+}
+
+footer{
+	align-self: center;
+	font-size: 14px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+@media (max-width: 900px){
+	.box1{
+	position: absolute;
+	top:20px;
+	left: 40px;
+	z-index: 22;
+}
+main{
+   width: 98%;
+	flex-direction:column;
+	align-items:center;
+}
+.container{
+	order: 2;
+	
+	width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-bottom: 40px;
+}
+.box3{
+	order: 1;
+	margin-top:90px;
+	height: 60vh;
+	width: 100%;
+   background-image: url('images/hero-mobile.jpg');
+   background-position:center;
+   background-size: contain;
+   background-repeat: no-repeat;
+ 
+}
+.box2{
+	justify-content: center;
+	align-items:center;
+	margin-left:0px;
+	margin-top: 50px;
+	text-align: center;
+}
+.header{
+	font-size: 3rem;
+	font-weight: 600;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.text{
+	width: 80%;
+}
+form{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: baseline;
+	margin-top: 20px;
+}
+.email{
+	width: 300px;
+	padding:20px 32px;
+	border:1px solid var(--p-Desaturated-Red);
+	border-radius: 32px;
+    outline: none;
+}
+}
+@media (min-width: 902px) and (max-width: 1200px){
+	.header{
+	font-size: 3rem;
+	font-weight: 600;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+}
