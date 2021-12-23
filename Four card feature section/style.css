@@ -1,0 +1,131 @@
+:root{
+	--primary-Red: hsl(0, 78%, 62%);
+--primary-Cyan: hsl(180, 62%, 55%);
+--primary-Orange: hsl(34, 97%, 64%);
+--primary-Blue: hsl(212, 86%, 64%);
+--neotral-Very-Dark-Blue: hsl(234, 12%, 34%);
+--neotral-Grayish-Blue: hsl(229, 6%, 66%);
+--neotral-Very-Light-Gray: hsl(0, 0%, 98%);
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 200;
+	font-size:15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1440px;
+	background-color: var(--neotral-Very-Light-Gray);
+	padding:3rem 5rem 0.5rem 5rem;
+}
+.bold{
+	
+	font-weight: 400;
+	line-height: 1.5;
+}
+.bolder{
+	font-weight: 600;
+	line-height: 1.5;
+}
+.small{
+	font-weight: 200;
+	font-size: 18px;
+	
+}
+.header{
+	margin-bottom: 50px;
+	width: 600px;
+	text-align: center;
+   font-size: 36px;
+   line-height: 1;
+   color: var(--neotral-Very-Dark-Blue);
+}
+.attribution p{
+	margin-top: 40px;
+	text-align: center;
+	color:var(--neotral-Very-Dark-Blue); 
+	font-size: 16px;
+	font-weight: 400;
+	font-family:  'Poppins', sans-serif;
+}
+.body{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+}
+.box{
+	background-color:white;
+	box-shadow: 0px 4px 8px var(--neotral-Grayish-Blue); 
+	display: flex;
+	flex-direction: column;
+	justify-content:flex-start;
+	padding: 20px 30px;
+	margin: 10px;
+	border-radius:12px;
+	width:280px;
+	height: 175px;
+
+
+}
+#cyan{
+	border-top:var(--primary-Cyan) 5px solid;
+}
+#red{
+	border-top:var(--primary-Red) 5px solid;
+}
+#orange{
+	border-top:var(--primary-Orange) 5px solid;
+}
+#blue{
+	border-top:var(--primary-Blue) 5px solid;
+}
+.box-title{
+	font-weight: 600;
+	font-size: 16px;
+	 color: var(--neotral-Very-Dark-Blue);
+
+}
+.box-text{
+	font-weight: 200;
+	width: 80%;
+	font-size: 13px;
+	 color: var(--neotral-Very-Dark-Blue);
+	 line-height: 1.6;
+	 padding-top: 10px;
+}
+
+#img{
+	position: relative;
+	bottom: 2%;
+	top: 30%;
+	left: 85%;
+	width: 50px;
+	height: 50px;
+}
+
+@media (max-width: 700px){
+	body{
+		justify-content: center;
+		align-items: center;
+		padding: 1.5rem 0.5rem 0.5rem 0.5rem;
+	}
+	.header{
+		width: 100%;
+		font-size: 32px;
+
+	}
+	.body{
+		flex-direction: column;
+
+	}
+	.box{
+		
+		margin-left: auto;
+       margin-right: auto;
+
+	}
+}
