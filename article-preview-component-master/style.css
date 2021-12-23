@@ -1,0 +1,249 @@
+:root{
+--p-Very-Dark-Grayish-Blue: hsl(217, 19%, 35%);
+--p-Desaturated-Dark-Blue: hsl(214, 17%, 51%);
+--p-Grayish-Blue: hsl(212, 23%, 69%);
+--p-Light-Grayish-Blue: hsl(210, 46%, 95%);
+
+};
+*{
+	box-sizing: border-box;
+}
+body{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--p-Light-Grayish-Blue);
+
+}
+main{
+	font-family: 'Manrope', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 130px;
+	
+}
+.container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 700px;
+	height: 270px;
+	border-radius: 15px;
+	box-shadow: 0 2px 25px -7px #807A7A;
+}
+.pic{
+	width:300px;
+    height: 270px;
+    border-radius: 15px 0 0 15px;
+	background: url('images/drawers.jpg') no-repeat left/cover;
+}
+
+.descript{
+	width: 400px;
+	height: 270px;
+	border-radius: 0 15px 15px 0;
+	display: flex;
+	flex-direction:column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	font-size: 14px;
+	line-height: 1.2;
+	background-color: white;
+	position: relative;
+}
+.title{
+	width: 85%;
+	margin:20px auto 5px auto;
+	line-height: 1.5;
+	font-size: 15px;
+}
+.body{
+	width: 85%;
+	margin: 0px auto 5px auto;
+}
+.body span{
+	color: var(--p-Grayish-Blue);
+	line-height: 1.6;
+}
+.profile{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	width: 85%;
+	margin:5px auto 35px auto;
+	
+}
+.avatar{
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	padding: 2px;
+}
+.avatar img{
+	border-radius: 50%;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	cursor: pointer;
+}
+.bio{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin-left: 30px;
+	font-size: 12px;
+}
+.bio span:nth-child(1){
+	font-size: 12px;
+	font-weight: 700;
+}
+.bio span:nth-child(2){
+	color: var(--p-Grayish-Blue);
+}
+.share{
+	position: absolute;
+	right: 40px;
+}
+
+.tooltip{
+	position: absolute;
+	bottom: 20%;
+	right: -38px;
+	margin-bottom: 15px;
+	background-color: var(--p-Very-Dark-Grayish-Blue);
+	color: var(--p-Grayish-Blue);
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 190px;
+	height: 50px;
+	border-radius: 8px;
+	z-index: 4;
+	transform-origin: bottom;
+	opacity: 0;
+	visibility: hidden;
+	transition: 0.35s;
+}
+.share{
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background-color: var(--p-Grayish-Blue);
+	display: flex;
+	justify-content: center;
+	background-image: url('./images/icon-share.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:50% 50%;
+	padding: 3px;
+   transition: 0.3s ease-in-out 0.001s;
+   cursor: pointer;
+}
+
+.share:hover{
+	background-color: #EEE8E8;
+}
+.icon-share:hover img{
+  filter:invert(0.1);
+}
+.icon-share img{
+	transition: 0.3s ease-in-out 0.001s;
+	object-fit: cover;
+}
+.tooltip::after{
+	content: "";
+	position:absolute;
+	top: 100%;
+	left: 47%;
+	border-width: 9px;
+	border-color: var(--p-Very-Dark-Grayish-Blue) transparent transparent transparent;
+	border-style:solid; 
+	z-index: 4;
+}
+.tooltip span{
+	margin-right: 5px;
+	letter-spacing:5px;
+}
+.tooltip img{
+ margin-left: 9px;
+ cursor: pointer;
+}
+.tooltip img:hover{
+	filter: invert(0.1);
+}
+footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	margin:10px auto 10px auto;
+	text-align: center;
+}
+
+@media (max-width: 600px){
+	body{
+		min-height: 90vh;
+
+	}
+	main{
+	margin-top: 5px;
+	height: 90vh;
+}
+	.container{
+	display: flex;
+	flex-direction: column;
+	width:350px;
+	height: 510px;
+	border-radius: 15px 15px 15px 15px;
+	
+}
+.pic{
+	width: 100%;
+    height: 220px;
+    border-radius: 15px 15px 0 0;
+	}
+
+.descript{
+	width: 350px;
+	height: 290px;
+	border-radius: 0 0 15px 15px;
+	z-index: 3;
+}
+.tooltip{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin-bottom: 0;
+	justify-content: flex-start;
+	width: 100%;
+	height: 70px;
+	border-radius: 8px;
+
+}
+
+.tooltip::after{
+	content: "";
+	position:absolute;
+	top: 100%;
+	left: 47%;
+	border:none;
+	z-index: 2;
+}
+.tooltip span{
+	margin-right: 5px;
+	letter-spacing:5px;
+	margin-left: 40px;
+	
+}
+
+.share{
+	width: 25px;
+	height: 25px;
+	z-index: 10;
+}
+}
