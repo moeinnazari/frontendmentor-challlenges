@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+ <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+ 
+</head>
+<body>
+  <main>
+ <section class="content">
+  <div class="header">
+  Learn to code by watching others
+  </div>
+  <div class="text">
+  See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+  but understanding how developers think is invaluable. 
+  </div>
+  </section>
+  <section class="login">
+    <div class="box-try">
+  Try it free 7 days then $20/mo. thereafter
+    </div>
+    <form class="form" id="form" novalidate>
+     <label for="first">
+  <input type="text" id="first" name="first" value="" placeholder="First Name" required="required"> 
+  <span class="error-txt">First Name cannot be empty</span>
+    </label>
+   
+   <label for="last">
+  <input type="text" name="last" value="" placeholder="Last Name" id="last" required="required">
+  <span class="error-txt">Last Name cannot be empty</span>
+  </label>
+
+  <label for="email">
+  <input type="email" name="email" placeholder="Email Address"  id="e_mail" required="required">
+  <span class="error-txt">look's like this is not an email</span>
+   </label>
+
+   <label for="pass">
+   <input type="password" name="pass" placeholder="Password"  id="pass" required="required">
+  <span class="error-txt">Password cannot be empty</span>
+  </label>
+
+   <input type="submit" class="btn" value="Claim your free trial">
+  <div class="privecy">By clicking the button, you are agreeing to our <span class="terms">Terms and Services</span></div>
+   </form>
+  </section>
+</main>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">moein nazari</a>.
+    </p>
+  </footer>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
