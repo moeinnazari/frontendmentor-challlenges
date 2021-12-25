@@ -1,0 +1,333 @@
+:root{
+--p-Blue: hsl(246, 80%, 60%);
+--p-Light-redw : hsl(15, 100%, 70%);/*(work)*/
+--p-Soft-blue: hsl(195, 74%, 62%);/*play*/
+--p-Light-reds: hsl(348, 100%, 68%);/*study*/
+--p-Lime-green: hsl(145, 58%, 55%);/*exercise*/
+--p-Violet: hsl(264, 64%, 52%);/*social*/
+--p-Soft-orange: hsl(43, 84%, 65%);/*self care*/
+--n-Very-dark-blue: hsl(226, 43%, 10%);
+--n-Dark-blue: hsl(235, 46%, 20%);
+--n-Desaturated-blue: hsl(235, 45%, 61%);
+--n-Pale-Blue: hsl(236, 100%, 87%);
+
+}
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+font-family: 'Rubik', sans-serif;
+font-size: 18px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: var(--n-Very-dark-blue);
+
+}
+main{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 550px;
+	
+}
+.container,.container-top,.container-bottom{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+.card-profile{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 370px;
+	margin:15px auto 5px auto;
+
+}
+.profile{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	padding: 30px 25px 20px 25px;
+	border-radius: 12px;
+	background-color: var(--n-Desaturated-blue);
+     z-index: 3;
+}
+.avatar{
+	background:url('images/image-jeremy.png') no-repeat center/cover;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	padding: 2px;
+	border:2px solid #F2EDED;
+	cursor: pointer;
+	transition: 0.3s ease-in-out 0.001s;
+}
+.avatar:hover{
+	border:2px solid #CCE0DD;
+}
+.bio{
+	font-size: 12px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin-left: -22px;
+}
+.bio span{
+	color: #F9EFEF;
+	font-size: 14px;
+}
+.bio h4{
+	color:#F9EFEF; 
+	font-size: 22px;
+	font-weight: 300;
+}
+.week{
+
+	border-radius:0 0 12px 12px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	padding: 40px 20px 20px 20px;
+	background-color: var(--n-Dark-blue);
+	color: var(--n-Pale-Blue);
+	width: 100%;
+	font-size: 15px;
+    margin-top: -14px;
+   z-index: 1;
+   transition: 0.2s ease-in-out 0.001s;
+}
+.week  .active{
+	color:#F9EFEF;
+}
+.week span{
+	cursor: pointer;
+
+}
+.week span:hover{
+	opacity: 0.9;
+}
+.card-work,.card-play,.card-study,.card-exercise,.card-social,.card-care{
+	width: 370px;
+	margin:12px auto 12px auto;
+}
+.back-work{
+	background-color: var(--p-Light-redw);
+	display: flex;
+	justify-content: flex-end;
+	border-radius: 12px;
+	z-index: 1;
+	background-image: url('images/icon-work.svg');
+	background-repeat: no-repeat;
+	background-position: 90% 0%;
+	background-size: contain;
+	height: 70px;
+}
+	
+.front{
+	width: 100%;
+	background-color: var(--n-Dark-blue);
+	padding: 35px 20px 14px 20px;
+	font-size: 15px;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	z-index: 3;
+	border-radius: 12px;
+   margin-top: -26px;
+}
+.card-header,.card-body{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 90%;
+	margin-bottom: 10px;
+	font-weight: 300;
+}
+.card-header h5{
+	font-weight: 500;
+	font-size: 14px;
+	position: relative;
+}
+.image{
+	cursor: pointer;
+    
+}
+.menu{
+	position: relative;
+}
+.sub-menu{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+    position: absolute;
+    right: -28px;
+    z-index: 4;
+    width: 80px;
+    line-height: 1.5;
+   color: var(--n-Very-dark-blue);
+   font-size:15px;
+   font-weight: 400px;
+   border-radius: 4px;
+   transform-origin: top;
+   transform: scaleY(0);
+   transition: 0.3s ease-in-out 0.001s;
+}
+.menu:hover .sub-menu{
+	transform: scaleY(1);
+}
+.sub-menu span{
+	width: 100%;
+	background-color: var(--n-Pale-Blue);
+	text-align: center;
+	cursor: pointer;
+}
+.sub-menu span:nth-child(1){
+ border-radius: 4px 4px 0 0;
+}
+.sub-menu span:nth-child(2){
+ border-radius: 0;
+}
+.sub-menu span:nth-child(3){
+ border-radius: 0 0 4px 4px;
+}
+
+.sub-menu span:hover{
+	background-color: var(--n-Desaturated-blue);
+}
+}
+
+.card-body h1{
+	font-weight: 300;
+	font-size: 34px;
+}.card-body h5{
+	font-weight: 300;
+	font-size: 14px;
+	color:var(--n-Pale-Blue);
+}
+
+.back-play{
+	background:var(--p-Soft-blue) url('images/icon-play.svg') no-repeat 90% 0%/contain;
+   height: 70px;
+   border-radius: 12px;
+}
+.back-study{
+	background:var(--p-Light-reds) url('images/icon-study.svg') no-repeat 90% 0%/contain;
+   height: 70px;
+   border-radius: 12px;	
+}
+.back-exercise{
+		background:var(--p-Lime-green) url('images/icon-exercise.svg') no-repeat 90% 0%/contain;
+   height: 70px;
+   border-radius: 12px;
+}
+.back-social{
+		background:var(--p-Violet) url('images/icon-social.svg') no-repeat 90% 0%/contain;
+   height: 70px;
+   border-radius: 12px;
+}
+.back-care{
+		background:var(--p-Soft-orange) url('images/icon-self-care.svg') no-repeat 90% 0%/contain;
+   height: 70px;
+   border-radius: 12px;
+}
+footer{
+	color: #FBF7F7;
+	
+}
+footer a{
+	color: #D7F6EB;
+	cursor: pointer;
+	transition: 0.3s ease-in-out 0.001s;
+}
+footer a:hover{
+  opacity: 0.8;
+}
+@media (min-width:1100px){
+	main{
+		flex-direction: row;
+		height: 90vh;
+		max-width: 1200px;
+	}
+	
+	.container{
+		display: flex;
+		flex-direction: column;
+	}
+	.container-top,.container-bottom{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+	.card-work,.card-play,.card-study,.card-exercise,.card-social,.card-care{
+		margin-right: 15px;
+        width: 240px;
+		
+	}
+   .card-body{
+   	flex-direction: column;
+   	justify-content: flex-start;
+   	align-items: flex-start;
+   }
+	.card-profile{
+	justify-content: flex-start;
+	align-items: flex-start;
+	width: 340px;
+}
+.profile{
+	align-self: flex-start;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	padding: 40px 25px 10px 25px;
+	border-radius: 12px;
+	background-color: var(--n-Desaturated-blue);
+     z-index: 3;
+     height: 50%;
+}
+
+.bio{
+	font-size: 12px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin:15px 0 0 0;
+}
+.bio span{
+}
+.bio h4{
+	font-size: 28px;
+	font-weight: 400;
+	width: 60%;
+}
+.week{
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items:flex-start;
+	padding: 60px 20px 20px 20px;
+
+}
+.week span{
+	cursor: pointer;
+	line-height: 3;
+
+}
+}
