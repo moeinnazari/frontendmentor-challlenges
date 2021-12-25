@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive pricing component</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  
+</head>
+<body>
+   <div class="header">
+  <span class="title"> Simple, traffic-based pricing</span>
+  <p class="text">Sign-up for our 30-day trial. No credit card required.</p> 
+  </div>
+  <main class="box">
+ 
+  
+    <div class="box-header">
+      <p>100K Pageviews</p>
+      <div class="box-account1">
+      <span id="account" class="account">$50.00</span><span>/month</span>
+    </div>
+    </div>
+    
+    <div class="box-slider">
+      <input type="range" name="myslider" min="0" max="100" value="" id="myslider" class="myslider">
+    </div>
+    <div class="box-account2">
+      <span id="account2" class="account">$50.00</span><span>/month</span>
+    </div>
+    <div class="box-off">
+      <span>Monthly Billing</span>
+      <div class="rect" id="rect">
+        <img src="images/circle2.svg" class="img">
+      </div>
+      <span>Yearly Billing</span>
+      <div class="red"><i class="neg">-</i><span>25%</span> <i class="dis">discount</i>
+      </div>
+    </div>
+    <div class="box-btn">
+      <div class="checklist">
+        <ul>
+          <li>Unlimited websites</li>
+          <li>100% data ownership</li>
+          <li>Email reports</li>
+        </ul>
+      </div>
+       <button class="btn-start">Start my trial</button>
+    </div>
+   
+ 
+
+  </main>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">moein nazari</a>.
+  </footer>
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
