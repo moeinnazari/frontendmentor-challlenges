@@ -1,0 +1,152 @@
+:root{
+	--primary-Dark-cyan: hsl(185, 75%, 39%);
+--primary-Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+--primary-Dark-grayish-blue: hsl(227, 10%, 46%);
+--neutral-Dark-gray: hsl(0, 0%, 59%);
+}
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+body{
+	font-family: 'Kumbh Sans',sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	color: black;
+	padding: 0;
+	line-height: 0;
+	background-image: url('images/bg-pattern-top.svg'),url('images/bg-pattern-bottom.svg');
+	background-repeat: no-repeat;
+	background-position: right 52vw bottom -60vh, left 50vw top 50vh;
+   background-color: var(--primary-Dark-cyan);
+}
+.container{
+	width: 350px;
+	height: 374px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	border-radius: 10px;
+	background-color: white;
+	overflow: hidden;
+	box-shadow:0 5px 20px rgba(8, 8, 8, 0.3);
+	background-size: 100% 50%;
+}
+.card-top{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 100%;
+	height: 37%;
+	background-image:url('images/bg-pattern-card.svg');
+
+
+}
+.card-image{
+
+    
+    position: absolute;
+    top: 23%;
+    left: 0;
+    right: 0;
+   width: 100%;
+   height: 28%;
+
+}
+.card-image img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border-radius: 50%;
+	border: 5px solid white;;
+	margin: auto;
+}
+.bio{
+	position: absolute;
+	top: 10%;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+	width: 100%;
+	height: 1em;
+	text-align: center;
+}
+
+.second{
+	font-weight: 400;
+	color: var(--primary-Dark-grayish-blue);
+}
+.city{
+	position: absolute;
+	margin: auto;
+	top:35%;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 1em;
+	text-align: center;
+	font-size: 0.8em;
+}
+
+
+
+
+
+.profile{
+	position: absolute;
+	top: 77%;
+	left: 0;
+	right: 0;
+	width: 100%;
+	margin: auto;
+	border-top: 1px solid black;
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+
+}
+.sub-profile{
+	padding-top: 35px;
+	text-align: center;
+	line-height: 0.5;
+	font-size: 0.9em;
+
+}
+.bold{
+	font-weight: bold;
+
+}
+.small{
+	font-size: 0.8em;
+}
+#follower{
+	grid-column: 1;
+
+}
+#like{
+	grid-column: 2;
+}
+#photo{
+	grid-column: 3;
+}
+@media (max-width: 375px){
+	.container{
+		width: 326px;
+	}
+	footer{
+		font-size: 0.7em;
+	}
+}
+footer{
+	position: fixed;
+	bottom: 5%;
+	left: 0;
+	right: 0;
+	margin: auto;
+	text-align: center;
+}
