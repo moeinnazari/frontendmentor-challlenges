@@ -23,6 +23,11 @@
 |20.Social proof section|[Repo](https://github.com/moeinnazari/frontendmentor-challlenges/tree/main/Social%20proof%20section)|[Demo](https://moeinnazari.github.io/frontendmentor-challlenges/Social%20proof%20section)|
 |21.sunnyside-agency-landing-page-main|[Repo](https://github.com/moeinnazari/frontendmentor-challlenges/tree/main/sunnyside-agency-landing-page-main)|[Demo](https://moeinnazari.github.io/frontendmentor-challlenges/sunnyside-agency-landing-page-main)|
 |22.time-tracking-dashboard-main|[Repo](https://github.com/moeinnazari/frontendmentor-challlenges/tree/main/time-tracking-dashboard-main)|[Demo](https://moeinnazari.github.io/frontendmentor-challlenges/time-tracking-dashboard-main)|
-|23.|[Repo]()|[Demo]()|
+|23.social-media-dashboard-with-theme-switcher-master|[Repo](https://github.com/moeinnazari/frontendmentor-challlenges/tree/main/social-media-dashboard-with-theme-switcher-master)|[Demo](https://moeinnazari.github.io/frontendmentor-challlenges/social-media-dashboard-with-theme-switcher-master)|
+|24.huddle-landing-page-with-alternating-feature-blocks-master|[Repo](https://github.com/moeinnazari/frontendmentor-challlenges/tree/main/huddle-landing-page-with-alternating-feature-blocks-master)|[Demo](https://moeinnazari.github.io/frontendmentor-challlenges/huddle-landing-page-with-alternating-feature-blocks-master)|
+|25.Ping coming soon page|[Repo](https://github.com/moeinnazari/frontendmentor-challlenges/tree/main/Ping%20coming%20soon%20page)|[Demo](https://moeinnazari.github.io/frontendmentor-challlenges/Ping%20coming%20soon%20page)|
+|26.Interactive pricing component|[Repo](https://github.com/moeinnazari/frontendmentor-challlenges/tree/main/Interactive%20pricing%20component)|[Demo](https://moeinnazari.github.io/frontendmentor-challlenges/Interactive%20pricing%20component)|
+|27.|[Repo]()|[Demo]()|
+
 
 continue...
