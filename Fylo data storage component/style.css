@@ -19,6 +19,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
 }
 .container{
 	position: absolute;
@@ -31,6 +32,7 @@ body{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	margin-bottom: 50px;
 }
 .fylo{
 	width: 70%;
@@ -164,7 +166,14 @@ body{
 	margin-left: auto;
 	text-align: center;
 }
-.attribution a{
+.attr{
+	margin: 30px auto 10px auto;
+	text-align: center;
+	width: 95%;
+	position: absolute;
+	bottom: 4px;
+}
+.attr a{
 	color: var(--n-Pale-Blue);
 
 }
@@ -174,6 +183,7 @@ body{
 @media (min-width: 850px){
 	body{
     background-image:none;
+    min-height: 90vh;
 }
 .container{
 	width: 70%;
@@ -236,5 +246,8 @@ body{
 	right: 0;
 	width: 100%;
 	height: 50vh;
+}
+.attr{
+	bottom: -40px;
 }
 }
