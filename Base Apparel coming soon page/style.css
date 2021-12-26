@@ -161,12 +161,20 @@ label{
 }
 
 footer{
+	width: 95%;
+	text-align: center;
 	align-self: center;
 	font-size: 14px;
 	margin-bottom: 10px;
 	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-
+.attribution{
+	text-align: center;
+	width: 95%;
+}
 @media (max-width: 900px){
 	.box1{
 	position: absolute;
