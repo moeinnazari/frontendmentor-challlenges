@@ -1,0 +1,13 @@
+@font-face{
+	font-family: 'Inter';
+	src:url('font/static/Inter-Bold.ttf') format ('truetype');
+}
+@font-face{
+	font-family:"lexenddeca";
+	src:url("font/lexend/LexendDeca-Regular.ttf") format ('truetype');
+}
+@font-face{
+	font-family: 'OpenSans';
+	src:url('../font/opensans/OpenSans-Bold.ttf') format ('truetype');
+}
+
