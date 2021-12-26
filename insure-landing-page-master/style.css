@@ -325,7 +325,12 @@ footer{
 .col a:hover{
 	color: var(--n-Dark-Grayish-Violet);
 }
+.attr{
+	width: 95%;
+	text-align: center;
+	margin: 5px auto 5px auto;
 
+}
 
 
 
@@ -545,5 +550,7 @@ main{
 	align-items: center;
 }
 
-
+.attr{
+	font-size: 13px;
+}
 }
