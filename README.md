@@ -27,7 +27,18 @@
 |24.huddle-landing-page-with-alternating-feature-blocks-master|[Repo](https://github.com/moeinnazari/frontendmentor-challlenges/tree/main/huddle-landing-page-with-alternating-feature-blocks-master)|[Demo](https://moeinnazari.github.io/frontendmentor-challlenges/huddle-landing-page-with-alternating-feature-blocks-master)|
 |25.Ping coming soon page|[Repo](https://github.com/moeinnazari/frontendmentor-challlenges/tree/main/Ping%20coming%20soon%20page)|[Demo](https://moeinnazari.github.io/frontendmentor-challlenges/Ping%20coming%20soon%20page)|
 |26.Interactive pricing component|[Repo](https://github.com/moeinnazari/frontendmentor-challlenges/tree/main/Interactive%20pricing%20component)|[Demo](https://moeinnazari.github.io/frontendmentor-challlenges/Interactive%20pricing%20component)|
-|27.|[Repo]()|[Demo]()|
+|27.Bloger|[Repo](https://github.com/moeinnazari/frontendmentor-challlenges/tree/main/Bloger)|[Demo](https://moeinnazari.github.io/frontendmentor-challlenges/Bloger)|
+|28.calculator-app-main|[Repo]()|[Demo]()|
+|29.crowdfunding-product-page-main|[Repo](https://github.com/moeinnazari/frontendmentor-challlenges/tree/main/crowdfunding-product-page-main)|[Demo](https://moeinnazari.github.io/frontendmentor-challlenges/crowdfunding-product-page-main)|
+|30.FAQ Accordion Card|[Repo](https://github.com/moeinnazari/frontendmentor-challlenges/tree/main/FAQ%20Accordion%20Card)|[Demo](https://moeinnazari.github.io/frontendmentor-challlenges/FAQ%20Accordion%20Card)|
+|31.huddle-landing-page-with-curved-sections-master|[Repo](https://github.com/moeinnazari/frontendmentor-challlenges/tree/main/huddle-landing-page-with-curved-sections-master)|[Demo](https://moeinnazari.github.io/frontendmentor-challlenges/huddle-landing-page-with-curved-sections-master)|
+|32.stats-preview-card-component-main|[Repo](https://github.com/moeinnazari/frontendmentor-challlenges/tree/main/stats-preview-card-component-main)|[Demo](https://moeinnazari.github.io/frontendmentor-challlenges/stats-preview-card-component-main)|
+|33.tip-calculator-app-main|[Repo](https://github.com/moeinnazari/frontendmentor-challlenges/tree/main/tip-calculator-app-main)|[Demo](https://moeinnazari.github.io/frontendmentor-challlenges/tip-calculator-app-main)|
+|34.|[Repo]()|[Demo]()|
+|35.|[Repo]()|[Demo]()|
+
+
+
 
 
 continue...
