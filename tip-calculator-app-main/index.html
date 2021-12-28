@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1 class="title">SPLITTER</h1>
+  <div class="container">
+     <div class="left">
+       <label for="Bill">Bill</label>
+       <input type="number" min="0" id="Bill" value="" name="text" placeholder="00.00">
+        <label>select Tip %</label>
+        <div class="tips">
+          <button class="btn-tip" value="5">5%</button>
+          <button class="btn-tip" value="10">10%</button>
+          <button class="btn-tip" value="15">15%</button>
+          <button class="btn-tip" value="25">25%</button>
+          <button class="btn-tip" value="30">30%</button>
+          <input type="number" name="number" value="" id="custom" placeholder="Custom" min="0">
+        </div>
+       <label for="number" class="label"><span>Number of People</span><span class="error">Can't be zero</span></label>
+       <input type="number" min="1" value="1" id="number" name="number">
+     </div>
+     <div class="right">
+          <div class="amount">
+              <div class="amount-title">
+                <h5>Tip Amount</h5>
+                <h6>/person</h6>
+              </div>
+              <h1 id="amount-price">$0.00</h1>
+          </div>
+          <div class="total-amount">
+              <div class="total-amount-title">
+                <h5>Tip Amount</h5>
+                <h6>/person</h6>
+              </div>
+              <h1 id="total-amount-price" >$0.00</h1>
+          </div>
+          <button class="reset">Reset</button>
+     </div>
+  </div>
+  
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">moein nazari</a>.
+  </footer>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
