@@ -254,7 +254,7 @@ footer{
 	}
 	.btn-tip{
 
-	width: 141px;
+	width: 90px;
 	height: 40px;
 	margin-right: 15px;
 	margin-left: 18px;
@@ -265,7 +265,7 @@ footer{
 	margin-right: 18px;
 }
 #custom,#custom:focus{
-	width: 141px;
+	width: 90px;
 	height: 40px;
 	margin-right: 15px;
 	margin-left: 18px;
@@ -273,5 +273,9 @@ footer{
 }
 .reset{
 	margin-top: 10px;
+}
+.title{
+	margin: 0 auto 0 auto;
+	padding-left: 10px;
 }
 }
