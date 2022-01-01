@@ -295,7 +295,7 @@ main{
 	display: none;
 }
 .container-thanks{
-  width: 400px;
+  max-width: 400px;
   border-radius: 15px;
   padding: 20px 15px 20px 15px;
   display: flex;
@@ -556,6 +556,11 @@ main{
 
 
 @media (max-width: 700px){
+	body{
+		width: 100%;
+		margin: 0;
+		padding:0;
+	}
 	main{
 	width: 94%;
 }
@@ -712,7 +717,7 @@ margin-top: -10px;
 
 .section-left{
 	position: absolute;
-	top: 160px;
+	top: 180px;
 	left: 23px;
 }
 
@@ -747,6 +752,9 @@ margin-top: -10px;
 	height: 120px;
 	visibility: visible;
 }
-
+.container-thanks{
+	width: 85%;
+	text-align: center;
+}
 
 }
