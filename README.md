@@ -28,7 +28,7 @@
 |25.Ping coming soon page|[Repo](https://github.com/moeinnazari/frontendmentor-challlenges/tree/main/Ping%20coming%20soon%20page)|[Demo](https://moeinnazari.github.io/frontendmentor-challlenges/Ping%20coming%20soon%20page)|
 |26.Interactive pricing component|[Repo](https://github.com/moeinnazari/frontendmentor-challlenges/tree/main/Interactive%20pricing%20component)|[Demo](https://moeinnazari.github.io/frontendmentor-challlenges/Interactive%20pricing%20component)|
 |27.Bloger|[Repo](https://github.com/moeinnazari/frontendmentor-challlenges/tree/main/Bloger)|[Demo](https://moeinnazari.github.io/frontendmentor-challlenges/Bloger)|
-|28.calculator-app-main|[Repo]()|[Demo]()|
+|28.calculator-app-main|[Repo](https://github.com/moeinnazari/frontendmentor-challlenges/tree/main/calculator-app-main)|[Demo](https://moeinnazari.github.io/frontendmentor-challlenges/calculator-app-main)|
 |29.crowdfunding-product-page-main|[Repo](https://github.com/moeinnazari/frontendmentor-challlenges/tree/main/crowdfunding-product-page-main)|[Demo](https://moeinnazari.github.io/frontendmentor-challlenges/crowdfunding-product-page-main)|
 |30.FAQ Accordion Card|[Repo](https://github.com/moeinnazari/frontendmentor-challlenges/tree/main/FAQ%20Accordion%20Card)|[Demo](https://moeinnazari.github.io/frontendmentor-challlenges/FAQ%20Accordion%20Card)|
 |31.huddle-landing-page-with-curved-sections-master|[Repo](https://github.com/moeinnazari/frontendmentor-challlenges/tree/main/huddle-landing-page-with-curved-sections-master)|[Demo](https://moeinnazari.github.io/frontendmentor-challlenges/huddle-landing-page-with-curved-sections-master)|
